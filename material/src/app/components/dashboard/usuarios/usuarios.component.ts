@@ -46,7 +46,6 @@ export class UsuariosComponent implements OnInit {
   }
 
   eliminarUsuario(index: number) {
-
     this._usuarioService.eliminarUsuarios(index);
     this.cargarUsuarios();
 
