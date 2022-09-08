@@ -19,6 +19,8 @@ import { MatTableModule } from '@angular/material/table';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { MatCardModule } from '@angular/material/card';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 
 @NgModule({
@@ -37,7 +39,9 @@ import { MatSortModule } from '@angular/material/sort';
     MatTableModule,
     MatTooltipModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    MatCardModule,
+    MatGridListModule
   ],
   exports: [
     MatFormFieldModule,
@@ -52,7 +56,9 @@ import { MatSortModule } from '@angular/material/sort';
     MatTableModule,
     MatTooltipModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    MatCardModule,
+    MatGridListModule
   ]
 })
 export class SharedModule { }
